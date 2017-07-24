@@ -1,0 +1,6 @@
+[Unit]
+Description=pacicron - An pacman update notifier
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pacicron.sh
